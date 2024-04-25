@@ -1,0 +1,186 @@
+/* for header */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 50px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+#drop_down_menu {
+    width: 4%;
+    height: 50px;
+    
+}
+
+#head_logo {
+    width: 4%;
+}
+
+#mid_nav { 
+    width: 58%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    font-size: medium;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+
+#class_holder1 {
+    width: 4% ;
+}
+
+
+#right_nav {
+    width: 15% ;
+    display: flex;
+    border: 1px black solid;
+    flex-basis: auto;
+    flex-direction:row;
+    justify-content: space-around;
+    list-style: none;
+    color:white;
+
+}
+
+#search {
+    width:4%;
+    border: 1px black solid;
+}
+
+#sign_in {
+    width:6%;
+    height: 65%;
+    margin-top: 8px;
+    border: 1px black solid;
+    flex-basis: auto;
+    align-content: center;
+    text-align: center;
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+#class_holder2 {
+    width: 1% ;
+}
+/*nav menu on the top*/
+nav{
+    height: 40px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+
+
+
+#nav_spaceholder1, #nav_spaceholder2 {
+    width: 1%;
+  
+}
+
+#lower_nav {
+    width:95%;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    flex-direction: row;
+    list-style: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main{
+    height: 700px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    margin: 10px;
+}
+
+
+span {
+    margin-left:3px;
+}
+
+
+#left_col{
+    width:40%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+#lbox1{
+    height:10%;
+    font-size: 40px;
+}
+
+#lbox2 {
+    height:70%;
+}
+
+#lbox3 {
+    margin-top: -30px;
+    height:5%;
+    font-size: 20px;
+}
+
+#lbox4 {
+    font-size: 16px;
+}
+
+
+#mid_col{
+    width:35%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+
+}
+
+#mbox1, #mbox3 {
+    height:40%;
+}
+
+#mbox2, #mbox4 {
+    height:10%;
+    font-size: 20px;
+}
+
+
+#right_col{
+    width:25%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+
+#rbox1, #rbox3 {
+    height:35%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#rbox2, #box4{
+    height:10%;
+    font-size: 20px;
+    margin-top: 0px;
+    position: relative;
+
+}
+
+#rbox5, #rbox6 {
+    height:8%;
+    font-size: 16px;
+}
+
